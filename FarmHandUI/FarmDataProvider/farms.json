@@ -1,0 +1,60 @@
+{
+    "farms": [
+               {
+               "identifier": 1,
+               "name": "Iowa Corn",
+               "centroidLatitude": 43.2237,
+               "centroidLongitude": -94.0220,
+               "crop": "corn",
+               "plantingDate": "2017-03-09T15:54:22.827Z"
+               },
+               {
+               "identifier": 2,
+               "name": "Pete's Soybeans",
+               "centroidLatitude": 38.6231,
+               "centroidLongitude": -98.1722,
+               "crop": "soybeans",
+               "plantingDate": "2017-04-09T07:54:53.297Z"
+               },
+               {
+               "identifier": 3,
+               "name": "Wheat in Kansas",
+               "centroidLatitude": 38.4658,
+               "centroidLongitude": -98.3934,
+               "crop": "wheat",
+               "plantingDate": "2017-03-12T09:54:43.512Z"
+               },
+               {
+               "identifier": 4,
+               "name": "Ames Corn",
+               "centroidLatitude": 42.004665,
+               "centroidLongitude": -93.5753725,
+               "crop": "corn",
+               "plantingDate": "2017-04-09T15:54:22.827Z"
+               },
+               {
+               "identifier": 5,
+               "name": "Decatur Soybeans",
+               "centroidLatitude": 39.8368283,
+               "centroidLongitude": -88.8596562,
+               "crop": "soybeans",
+               "plantingDate": "2017-05-09T07:54:53.297Z"
+               },
+               {
+               "identifier": 6,
+               "name": "Wheat in Huxley",
+               "centroidLatitude": 41.8851063,
+               "centroidLongitude": -93.6054714,
+               "crop": "wheat",
+               "plantingDate": "2017-06-12T09:54:43.512Z"
+               },
+               {
+               "identifier": 7,
+               "name": "Iowa Corn",
+               "centroidLatitude": 39.8368283,
+               "centroidLongitude": -93.6054714,
+               "crop": "corn",
+               "plantingDate": "2017-03-12T15:24:43.552Z"
+               }
+            ]
+}
