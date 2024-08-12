@@ -1,60 +1,652 @@
 {
     "farms": [
-               {
-               "identifier": 1,
-               "name": "Iowa Corn",
-               "centroidLatitude": 43.2237,
-               "centroidLongitude": -94.0220,
-               "crop": "corn",
-               "plantingDate": "2017-03-09T15:54:22.827Z"
-               },
-               {
-               "identifier": 2,
-               "name": "Pete's Soybeans",
-               "centroidLatitude": 38.6231,
-               "centroidLongitude": -98.1722,
-               "crop": "soybeans",
-               "plantingDate": "2017-04-09T07:54:53.297Z"
-               },
-               {
-               "identifier": 3,
-               "name": "Wheat in Kansas",
-               "centroidLatitude": 38.4658,
-               "centroidLongitude": -98.3934,
-               "crop": "wheat",
-               "plantingDate": "2017-03-12T09:54:43.512Z"
-               },
-               {
-               "identifier": 4,
-               "name": "Ames Corn",
-               "centroidLatitude": 42.004665,
-               "centroidLongitude": -93.5753725,
-               "crop": "corn",
-               "plantingDate": "2017-04-09T15:54:22.827Z"
-               },
-               {
-               "identifier": 5,
-               "name": "Decatur Soybeans",
-               "centroidLatitude": 39.8368283,
-               "centroidLongitude": -88.8596562,
-               "crop": "soybeans",
-               "plantingDate": "2017-05-09T07:54:53.297Z"
-               },
-               {
-               "identifier": 6,
-               "name": "Wheat in Huxley",
-               "centroidLatitude": 41.8851063,
-               "centroidLongitude": -93.6054714,
-               "crop": "wheat",
-               "plantingDate": "2017-06-12T09:54:43.512Z"
-               },
-               {
-               "identifier": 7,
-               "name": "Iowa Corn",
-               "centroidLatitude": 39.8368283,
-               "centroidLongitude": -93.6054714,
-               "crop": "corn",
-               "plantingDate": "2017-03-12T15:24:43.552Z"
-               }
-            ]
+        {
+            "identifier": 1,
+            "name": "Iowa Corn",
+            "centroidLatitude": 43.2237,
+            "centroidLongitude": -94.0220,
+            "crop": "corn",
+            "plantingDate": "2017-03-09T15:54:22.827Z"
+        },
+        {
+            "identifier": 2,
+            "name": "Pete's Soybeans",
+            "centroidLatitude": 38.6231,
+            "centroidLongitude": -98.1722,
+            "crop": "soybeans",
+            "plantingDate": "2017-04-09T07:54:53.297Z"
+        },
+        {
+            "identifier": 3,
+            "name": "Wheat in Kansas",
+            "centroidLatitude": 38.4658,
+            "centroidLongitude": -98.3934,
+            "crop": "wheat",
+            "plantingDate": "2017-03-12T09:54:43.512Z"
+        },
+        {
+            "identifier": 4,
+            "name": "Ames Corn",
+            "centroidLatitude": 42.004665,
+            "centroidLongitude": -93.5753725,
+            "crop": "corn",
+            "plantingDate": "2017-04-09T15:54:22.827Z"
+        },
+        {
+            "identifier": 5,
+            "name": "Decatur Soybeans",
+            "centroidLatitude": 39.8368283,
+            "centroidLongitude": -88.8596562,
+            "crop": "soybeans",
+            "plantingDate": "2017-05-09T07:54:53.297Z"
+        },
+        {
+            "identifier": 6,
+            "name": "Wheat in Huxley",
+            "centroidLatitude": 41.8851063,
+            "centroidLongitude": -93.6054714,
+            "crop": "wheat",
+            "plantingDate": "2017-06-12T09:54:43.512Z"
+        },
+        {
+            "identifier": 7,
+            "name": "Iowa Corn",
+            "centroidLatitude": 39.8368283,
+            "centroidLongitude": -93.6054714,
+            "crop": "corn",
+            "plantingDate": "2017-03-12T15:24:43.552Z"
+        },
+        {
+            "identifier": 8,
+            "name": "Sunflower Plains",
+            "centroidLatitude": 37.9643,
+            "centroidLongitude": -100.4517,
+            "crop": "sunflowers",
+            "plantingDate": "2017-03-20T11:32:45.112Z"
+        },
+        {
+            "identifier": 9,
+            "name": "Buckeye Beans",
+            "centroidLatitude": 40.3675,
+            "centroidLongitude": -82.9962,
+            "crop": "soybeans",
+            "plantingDate": "2017-04-15T09:24:12.837Z"
+        },
+        {
+            "identifier": 10,
+            "name": "Golden Wheatfields",
+            "centroidLatitude": 39.7392,
+            "centroidLongitude": -104.9903,
+            "crop": "wheat",
+            "plantingDate": "2017-03-22T10:45:32.312Z"
+        },
+        {
+            "identifier": 11,
+            "name": "Prairie Corn",
+            "centroidLatitude": 41.8780,
+            "centroidLongitude": -87.6298,
+            "crop": "corn",
+            "plantingDate": "2017-04-05T13:24:23.947Z"
+        },
+        {
+            "identifier": 12,
+            "name": "Cotton Field",
+            "centroidLatitude": 32.7767,
+            "centroidLongitude": -96.7970,
+            "crop": "cotton",
+            "plantingDate": "2017-05-17T12:14:54.827Z"
+        },
+        {
+            "identifier": 13,
+            "name": "Soy Valley",
+            "centroidLatitude": 34.7465,
+            "centroidLongitude": -92.2896,
+            "crop": "soybeans",
+            "plantingDate": "2017-06-20T08:15:43.827Z"
+        },
+        {
+            "identifier": 14,
+            "name": "Barley Acres",
+            "centroidLatitude": 45.5234,
+            "centroidLongitude": -122.6762,
+            "crop": "barley",
+            "plantingDate": "2017-04-09T14:23:32.921Z"
+        },
+        {
+            "identifier": 15,
+            "name": "Peanut Grove",
+            "centroidLatitude": 31.5200,
+            "centroidLongitude": -87.9176,
+            "crop": "peanuts",
+            "plantingDate": "2017-05-14T11:34:43.817Z"
+        },
+        {
+            "identifier": 16,
+            "name": "Carolina Cotton",
+            "centroidLatitude": 34.0007,
+            "centroidLongitude": -81.0348,
+            "crop": "cotton",
+            "plantingDate": "2017-04-20T09:45:52.512Z"
+        },
+        {
+            "identifier": 17,
+            "name": "Rice Fields",
+            "centroidLatitude": 29.4241,
+            "centroidLongitude": -98.4936,
+            "crop": "rice",
+            "plantingDate": "2017-03-29T14:23:43.927Z"
+        },
+        {
+            "identifier": 18,
+            "name": "Idaho Potatoes",
+            "centroidLatitude": 43.6150,
+            "centroidLongitude": -116.2023,
+            "crop": "potatoes",
+            "plantingDate": "2017-04-25T07:15:23.712Z"
+        },
+        {
+            "identifier": 19,
+            "name": "Nebraska Corn",
+            "centroidLatitude": 41.2565,
+            "centroidLongitude": -95.9345,
+            "crop": "corn",
+            "plantingDate": "2017-05-12T10:24:53.497Z"
+        },
+        {
+            "identifier": 20,
+            "name": "Mississippi Soybeans",
+            "centroidLatitude": 32.2988,
+            "centroidLongitude": -90.1848,
+            "crop": "soybeans",
+            "plantingDate": "2017-04-18T12:34:23.827Z"
+        },
+        {
+            "identifier": 21,
+            "name": "Montana Wheat",
+            "centroidLatitude": 46.8797,
+            "centroidLongitude": -110.3626,
+            "crop": "wheat",
+            "plantingDate": "2017-05-06T14:14:12.327Z"
+        },
+        {
+            "identifier": 22,
+            "name": "Georgia Peanuts",
+            "centroidLatitude": 32.1656,
+            "centroidLongitude": -82.9001,
+            "crop": "peanuts",
+            "plantingDate": "2017-03-22T10:24:53.512Z"
+        },
+        {
+            "identifier": 23,
+            "name": "Bluegrass Corn",
+            "centroidLatitude": 38.0406,
+            "centroidLongitude": -84.5037,
+            "crop": "corn",
+            "plantingDate": "2017-04-30T09:24:33.127Z"
+        },
+        {
+            "identifier": 24,
+            "name": "Texas Cotton",
+            "centroidLatitude": 31.9686,
+            "centroidLongitude": -99.9018,
+            "crop": "cotton",
+            "plantingDate": "2017-05-20T12:34:23.712Z"
+        },
+        {
+            "identifier": 25,
+            "name": "Dakota Sunflowers",
+            "centroidLatitude": 46.7298,
+            "centroidLongitude": -94.6859,
+            "crop": "sunflowers",
+            "plantingDate": "2017-04-14T08:14:53.917Z"
+        },
+        {
+            "identifier": 26,
+            "name": "Oregon Barley",
+            "centroidLatitude": 44.9429,
+            "centroidLongitude": -123.0351,
+            "crop": "barley",
+            "plantingDate": "2017-06-01T11:24:12.317Z"
+        },
+        {
+            "identifier": 27,
+            "name": "Alabama Peanuts",
+            "centroidLatitude": 32.3182,
+            "centroidLongitude": -86.9023,
+            "crop": "peanuts",
+            "plantingDate": "2017-05-18T13:14:23.817Z"
+        },
+        {
+            "identifier": 28,
+            "name": "Kansas Wheat",
+            "centroidLatitude": 39.0119,
+            "centroidLongitude": -98.4842,
+            "crop": "wheat",
+            "plantingDate": "2017-04-09T15:24:32.927Z"
+        },
+        {
+            "identifier": 29,
+            "name": "Arkansas Rice",
+            "centroidLatitude": 34.7465,
+            "centroidLongitude": -92.2896,
+            "crop": "rice",
+            "plantingDate": "2017-03-24T08:23:53.217Z"
+        },
+        {
+            "identifier": 30,
+            "name": "California Almonds",
+            "centroidLatitude": 36.7783,
+            "centroidLongitude": -119.4179,
+            "crop": "almonds",
+            "plantingDate": "2017-05-09T12:24:43.817Z"
+        },
+        {
+            "identifier": 31,
+            "name": "Hawaiian Sugarcane",
+            "centroidLatitude": 20.7967,
+            "centroidLongitude": -156.3319,
+            "crop": "sugarcane",
+            "plantingDate": "2017-03-19T09:14:23.512Z"
+        },
+        {
+            "identifier": 32,
+            "name": "Cajun Rice",
+            "centroidLatitude": 30.9843,
+            "centroidLongitude": -91.9623,
+            "crop": "rice",
+            "plantingDate": "2017-04-28T11:24:43.327Z"
+        },
+        {
+            "identifier": 33,
+            "name": "Blueberry Hills",
+            "centroidLatitude": 35.2271,
+            "centroidLongitude": -80.8431,
+            "crop": "blueberries",
+            "plantingDate": "2017-05-18T13:34:23.512Z"
+        },
+        {
+            "identifier": 34,
+            "name": "Apple Valley",
+            "centroidLatitude": 40.7128,
+            "centroidLongitude": -74.0060,
+            "crop": "apples",
+            "plantingDate": "2017-06-15T10:24:43.317Z"
+        },
+        {
+            "identifier": 35,
+            "name": "Peach Orchard",
+            "centroidLatitude": 33.748995,
+            "centroidLongitude": -84.387982,
+            "crop": "peaches",
+            "plantingDate": "2017-04-14T09:24:23.827Z"
+        },
+        {
+            "identifier": 36,
+            "name": "Maple Syrup Farm",
+            "centroidLatitude": 44.3148,
+            "centroidLongitude": -85.6024,
+            "crop": "maple syrup",
+            "plantingDate": "2017-03-17T11:24:43.517Z"
+        },
+        {
+            "identifier": 37,
+            "name": "Evergreen Tree Farm",
+            "centroidLatitude": 47.6062,
+            "centroidLongitude": -122.3321,
+            "crop": "christmas trees",
+            "plantingDate": "2017-04-10T12:14:53.217Z"
+        },
+        {
+            "identifier": 38,
+            "name": "Vineyard Vines",
+            "centroidLatitude": 34.0522,
+            "centroidLongitude": -118.2437,
+            "crop": "grapes",
+            "plantingDate": "2017-05-20T13:14:23.712Z"
+        },
+        {
+            "identifier": 39,
+            "name": "Walnut Grove",
+            "centroidLatitude": 36.7378,
+            "centroidLongitude": -119.7871,
+            "crop": "walnuts",
+            "plantingDate": "2017-06-07T11:24:53.217Z"
+        },
+        {
+            "identifier": 40,
+            "name": "Kentucky Bluegrass",
+            "centroidLatitude": 38.2527,
+            "centroidLongitude": -85.7585,
+            "crop": "bluegrass",
+            "plantingDate": "2017-04-12T10:24:23.217Z"
+        },
+        {
+            "identifier": 41,
+            "name": "Indiana Cornfields",
+            "centroidLatitude": 39.7684,
+            "centroidLongitude": -86.1581,
+            "crop": "corn",
+            "plantingDate": "2017-04-19T09:14:53.827Z"
+        },
+        {
+            "identifier": 42,
+            "name": "Ohio Soybeans",
+            "centroidLatitude": 40.4173,
+            "centroidLongitude": -82.9071,
+            "crop": "soybeans",
+            "plantingDate": "2017-05-01T12:14:23.817Z"
+        },
+        {
+            "identifier": 43,
+            "name": "Wisconsin Dairy",
+            "centroidLatitude": 43.7844,
+            "centroidLongitude": -88.7879,
+            "crop": "dairy",
+            "plantingDate": "2017-06-05T08:14:53.217Z"
+        },
+        {
+            "identifier": 44,
+            "name": "Florida Oranges",
+            "centroidLatitude": 27.9944024,
+            "centroidLongitude": -81.7602544,
+            "crop": "oranges",
+            "plantingDate": "2017-03-25T07:14:43.317Z"
+        },
+        {
+            "identifier": 45,
+            "name": "Maine Blueberries",
+            "centroidLatitude": 45.2538,
+            "centroidLongitude": -69.4455,
+            "crop": "blueberries",
+            "plantingDate": "2017-05-14T09:34:23.712Z"
+        },
+        {
+            "identifier": 46,
+            "name": "Rhode Island Potatoes",
+            "centroidLatitude": 41.5801,
+            "centroidLongitude": -71.4774,
+            "crop": "potatoes",
+            "plantingDate": "2017-04-24T08:14:23.317Z"
+        },
+        {
+            "identifier": 47,
+            "name": "Vermont Maple Syrup",
+            "centroidLatitude": 44.5588,
+            "centroidLongitude": -72.5778,
+            "crop": "maple syrup",
+            "plantingDate": "2017-06-10T10:24:43.517Z"
+        },
+        {
+            "identifier": 48,
+            "name": "Oklahoma Wheat",
+            "centroidLatitude": 35.0078,
+            "centroidLongitude": -97.0929,
+            "crop": "wheat",
+            "plantingDate": "2017-05-04T11:14:53.217Z"
+        },
+        {
+            "identifier": 49,
+            "name": "Nevada Alfalfa",
+            "centroidLatitude": 39.5296,
+            "centroidLongitude": -119.8138,
+            "crop": "alfalfa",
+            "plantingDate": "2017-06-12T12:24:53.317Z"
+        },
+        {
+            "identifier": 50,
+            "name": "South Carolina Cotton",
+            "centroidLatitude": 33.8361,
+            "centroidLongitude": -81.1637,
+            "crop": "cotton",
+            "plantingDate": "2017-04-07T09:24:23.927Z"
+        },
+        {
+            "identifier": 51,
+            "name": "North Dakota Sunflowers",
+            "centroidLatitude": 47.5515,
+            "centroidLongitude": -101.0020,
+            "crop": "sunflowers",
+            "plantingDate": "2017-05-09T10:14:23.617Z"
+        },
+        {
+            "identifier": 52,
+            "name": "Washington Apples",
+            "centroidLatitude": 47.7511,
+            "centroidLongitude": -120.7401,
+            "crop": "apples",
+            "plantingDate": "2017-06-15T07:24:43.217Z"
+        },
+        {
+            "identifier": 53,
+            "name": "Louisiana Sugarcane",
+            "centroidLatitude": 30.9843,
+            "centroidLongitude": -91.9623,
+            "crop": "sugarcane",
+            "plantingDate": "2017-04-18T10:24:23.817Z"
+        },
+        {
+            "identifier": 54,
+            "name": "Michigan Cherries",
+            "centroidLatitude": 44.3148,
+            "centroidLongitude": -85.6024,
+            "crop": "cherries",
+            "plantingDate": "2017-05-12T08:14:53.217Z"
+        },
+        {
+            "identifier": 55,
+            "name": "New Jersey Cranberries",
+            "centroidLatitude": 39.833851,
+            "centroidLongitude": -74.871826,
+            "crop": "cranberries",
+            "plantingDate": "2017-06-14T12:14:23.517Z"
+        },
+        {
+            "identifier": 56,
+            "name": "Tennessee Tobacco",
+            "centroidLatitude": 35.5175,
+            "centroidLongitude": -86.5804,
+            "crop": "tobacco",
+            "plantingDate": "2017-03-30T08:14:23.317Z"
+        },
+        {
+            "identifier": 57,
+            "name": "Nebraska Cornfields",
+            "centroidLatitude": 41.4925,
+            "centroidLongitude": -99.9018,
+            "crop": "corn",
+            "plantingDate": "2017-05-02T09:24:43.217Z"
+        },
+        {
+            "identifier": 58,
+            "name": "Mississippi Catfish",
+            "centroidLatitude": 32.3547,
+            "centroidLongitude": -89.3985,
+            "crop": "catfish",
+            "plantingDate": "2017-06-18T11:14:23.817Z"
+        },
+        {
+            "identifier": 59,
+            "name": "Illinois Soybeans",
+            "centroidLatitude": 40.6331,
+            "centroidLongitude": -89.3985,
+            "crop": "soybeans",
+            "plantingDate": "2017-03-19T09:24:53.217Z"
+        },
+        {
+            "identifier": 60,
+            "name": "Texas Cotton",
+            "centroidLatitude": 31.9686,
+            "centroidLongitude": -99.9018,
+            "crop": "cotton",
+            "plantingDate": "2017-04-14T12:14:23.417Z"
+        },
+        {
+            "identifier": 61,
+            "name": "Arizona Lettuce",
+            "centroidLatitude": 34.0489,
+            "centroidLongitude": -111.0937,
+            "crop": "lettuce",
+            "plantingDate": "2017-05-09T08:24:43.817Z"
+        },
+        {
+            "identifier": 62,
+            "name": "New Mexico Peppers",
+            "centroidLatitude": 34.5199,
+            "centroidLongitude": -105.8701,
+            "crop": "peppers",
+            "plantingDate": "2017-06-17T07:14:23.317Z"
+        },
+        {
+            "identifier": 63,
+            "name": "Utah Hay",
+            "centroidLatitude": 39.32098,
+            "centroidLongitude": -111.0937,
+            "crop": "hay",
+            "plantingDate": "2017-04-25T10:24:43.217Z"
+        },
+        {
+            "identifier": 64,
+            "name": "Oregon Hazelnuts",
+            "centroidLatitude": 43.8041,
+            "centroidLongitude": -120.5542,
+            "crop": "hazelnuts",
+            "plantingDate": "2017-05-12T12:14:23.817Z"
+        },
+        {
+            "identifier": 65,
+            "name": "Alaska Cranberries",
+            "centroidLatitude": 64.2008,
+            "centroidLongitude": -149.4937,
+            "crop": "cranberries",
+            "plantingDate": "2017-06-16T09:14:53.217Z"
+        },
+        {
+            "identifier": 66,
+            "name": "Idaho Potatoes",
+            "centroidLatitude": 44.0682,
+            "centroidLongitude": -114.7420,
+            "crop": "potatoes",
+            "plantingDate": "2017-03-21T08:14:23.317Z"
+        },
+        {
+            "identifier": 67,
+            "name": "Montana Wheat",
+            "centroidLatitude": 46.8797,
+            "centroidLongitude": -110.3626,
+            "crop": "wheat",
+            "plantingDate": "2017-04-29T09:24:53.217Z"
+        },
+        {
+            "identifier": 68,
+            "name": "Wyoming Barley",
+            "centroidLatitude": 43.07597,
+            "centroidLongitude": -107.2903,
+            "crop": "barley",
+            "plantingDate": "2017-05-10T11:14:23.617Z"
+        },
+        {
+            "identifier": 69,
+            "name": "Colorado Cornfields",
+            "centroidLatitude": 39.5501,
+            "centroidLongitude": -105.7821,
+            "crop": "corn",
+            "plantingDate": "2017-06-01T12:24:43.217Z"
+        },
+        {
+            "identifier": 70,
+            "name": "North Carolina Tobacco",
+            "centroidLatitude": 35.7596,
+            "centroidLongitude": -79.0193,
+            "crop": "tobacco",
+            "plantingDate": "2017-03-18T07:14:23.817Z"
+        },
+        {
+            "identifier": 71,
+            "name": "Virginia Peanuts",
+            "centroidLatitude": 37.4316,
+            "centroidLongitude": -78.6569,
+            "crop": "peanuts",
+            "plantingDate": "2017-04-17T08:14:23.317Z"
+        },
+        {
+            "identifier": 72,
+            "name": "Maryland Cornfields",
+            "centroidLatitude": 39.0458,
+            "centroidLongitude": -76.6413,
+            "crop": "corn",
+            "plantingDate": "2017-05-15T09:14:43.517Z"
+        },
+        {
+            "identifier": 73,
+            "name": "Delaware Soybeans",
+            "centroidLatitude": 38.9108,
+            "centroidLongitude": -75.5277,
+            "crop": "soybeans",
+            "plantingDate": "2017-06-03T10:24:23.217Z"
+        },
+        {
+            "identifier": 74,
+            "name": "Pennsylvania Mushrooms",
+            "centroidLatitude": 41.2033,
+            "centroidLongitude": -77.1945,
+            "crop": "mushrooms",
+            "plantingDate": "2017-04-15T12:24:53.317Z"
+        },
+        {
+            "identifier": 75,
+            "name": "West Virginia Apples",
+            "centroidLatitude": 38.5976,
+            "centroidLongitude": -80.4549,
+            "crop": "apples",
+            "plantingDate": "2017-03-22T07:14:23.317Z"
+        },
+        {
+            "identifier": 76,
+            "name": "Kentucky Bluegrass",
+            "centroidLatitude": 38.2527,
+            "centroidLongitude": -85.7585,
+            "crop": "bluegrass",
+            "plantingDate": "2017-05-11T11:14:43.217Z"
+        },
+        {
+            "identifier": 77,
+            "name": "Missouri Grapes",
+            "centroidLatitude": 38.5767,
+            "centroidLongitude": -92.1735,
+            "crop": "grapes",
+            "plantingDate": "2017-06-08T12:14:23.617Z"
+        },
+        {
+            "identifier": 78,
+            "name": "Arkansas Rice",
+            "centroidLatitude": 34.7465,
+            "centroidLongitude": -92.2896,
+            "crop": "rice",
+            "plantingDate": "2017-04-09T13:14:23.217Z"
+        },
+        {
+            "identifier": 79,
+            "name": "Minnesota Wheat",
+            "centroidLatitude": 46.7296,
+            "centroidLongitude": -94.6859,
+            "crop": "wheat",
+            "plantingDate": "2017-03-25T09:14:43.817Z"
+        },
+        {
+            "identifier": 80,
+            "name": "Wisconsin Dairy",
+            "centroidLatitude": 43.7844,
+            "centroidLongitude": -88.7879,
+            "crop": "dairy",
+            "plantingDate": "2017-05-01T12:14:53.317Z"
+        },
+        {
+            "identifier": 81,
+            "name": "South Dakota Sunflowers",
+            "centroidLatitude": 44.6922,
+            "centroidLongitude": -103.836,
+            "crop": "sunflowers",
+            "plantingDate": "201
+        }
+    ]
 }
