@@ -16,9 +16,8 @@ class JSONFarmDataProvider {
         self.farms = farmsJSON.farms.map(Farm.init)
     }
 
-    func farmForIdentifier(_ identifier: Int, completion: @escaping (Farm) -> Void) {
+    func farmForIndex(_ index: Int, completion: @escaping (Farm) -> Void) {
         DispatchQueue.global(qos: .userInitiated).asyncAfter(deadline: .now() + 2) {
-            let index = identifier - 1 // WARNING: manual adjustment
             completion(self.farms[index])
         }
     }
